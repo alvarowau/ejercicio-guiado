@@ -75,6 +75,11 @@ h5 {
 .class-quote em{
   font-size: 2.5em;
 }
+.text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
 .link-btn {
   background-color: rgb(67, 163, 230);
   color: rgb(255, 255, 255);
@@ -95,8 +100,30 @@ h5 {
   background-color: rgb(25, 33, 41);
 }
 
-.dark-background p, h3, h4{
+.dark-background p, h3, h4, h5, em {
   color: rgb(255, 255, 255)
+}
+
+.footer {
+  font-size: 100em;
+  text-align: center;
+
+}
+
+.class-address {
+  font-style: normal;
+}
+.class-address em {
+font-size: 0.8em;
+
+}
+.footer a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style: none;
 }
 #team .section-text {
   font-size: 1.9em;
